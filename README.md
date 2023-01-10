@@ -1,4 +1,4 @@
-[Bash-скрипт](https://github.com/eugrus/PermArch/blob/main/script), который скачивает изображения всех листов дела с сайта [Государственного архива Пермского края](https://archives.permkrai.ru) и собирает из них PDF.
+[Bash-скрипт](https://github.com/eugrus/PermArch/blob/main/script), который скачивает изображения всех листов дела с сайта [Государственного архива Пермского края](https://archives.permkrai.ru) (ГКБУ ГАПК) и собирает из них PDF.
 
 Для функционирования скрипта в системе должны быть установлены `img2pdf` и `wget`.
 
