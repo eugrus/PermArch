@@ -2,5 +2,5 @@
 for n in $(seq 1 $2); do
     wget -qO- --load-cookies archives.permkrai.ru_cookies.txt https://archives.permkrai.ru/archive1/image/$1?n=$n -O $1.$n.jpg
 done
-img2pdf $1.*.jpg --output $1.pdf
+img2pdf $(ls $1.*.jpg|sort -V) --output $1.pdf
 rm $1.*.jpg
